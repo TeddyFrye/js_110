@@ -79,28 +79,28 @@
 // runningTotal([]); // []
 
 // Letter Counter (Part 1)
-function wordSizes(str) {
-  counterObj = {};
-  let sentenceArr = str.split(` `);
-  for (let i = 0; i < sentenceArr.length; i++) {
-    let wordLength = sentenceArr[i].length.toString();
-    if (wordLength === `0`) {
-      continue;
-    }
-    if (counterObj[wordLength]) {
-      counterObj[wordLength] += 1;
-    } else {
-      counterObj[wordLength] = 1;
-    }
-  }
-  console.log(counterObj);
-}
+// function wordSizes(str) {
+//   counterObj = {};
+//   let sentenceArr = str.split(` `);
+//   for (let i = 0; i < sentenceArr.length; i++) {
+//     let wordLength = sentenceArr[i].length.toString();
+//     if (wordLength === `0`) {
+//       continue;
+//     }
+//     if (counterObj[wordLength]) {
+//       counterObj[wordLength] += 1;
+//     } else {
+//       counterObj[wordLength] = 1;
+//     }
+//   }
+//   console.log(counterObj);
+// }
 
-function removeNonLetters(str) {
-  let result = ``;
-}
+// function removeNonLetters(str) {
+//   let result = ``;
+// }
 
-wordSizes("Four score and the seven."); // { "3": 1, "4": 1, "5": 1, "6": 1 }
-wordSizes("Hey diddle diddle, the cat and the fiddle!"); // { "3": 5, "6": 1, "7": 2 }
-wordSizes("What's up doc?"); // { "2": 1, "4": 1, "6": 1 }
-wordSizes(""); // {}
+// wordSizes("Four score and the seven."); // { "3": 1, "4": 1, "5": 1, "6": 1 }
+// wordSizes("Hey diddle diddle, the cat and the fiddle!"); // { "3": 5, "6": 1, "7": 2 }
+// wordSizes("What's up doc?"); // { "2": 1, "4": 1, "6": 1 }
+// wordSizes(""); // {}
